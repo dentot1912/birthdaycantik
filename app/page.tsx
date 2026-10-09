@@ -809,10 +809,6 @@ function LetterSection() {
           <div className="polaroid-photo" style={{ height: 'clamp(320px, 45vh, 460px)' }}>
             <img src='images/surat.jpeg' alt="Love letter" className="img-cover" />
           </div>
-          <div className="polaroid-caption" style={{ marginTop: 12 }}>
-            <h3 className="polaroid-title" style={{ fontSize: 15, marginBottom: 2 }}>Cuma kata tapi dari hati</h3>
-            <p className="polaroid-desc" style={{ fontSize: 12 }}>Bacanya sambil rebahan enak nih wkwkwk ...</p>
-          </div>
         </div>
 
         {/* ── Text side ── */}
@@ -1043,8 +1039,8 @@ function LetterSection() {
                     display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end',
                   }}>
                     <div>
-                      <span style={{ fontFamily: SERIF, fontSize: '1.45em', fontStyle: 'italic', color: C.blushD, fontWeight: 600 }}>- Aku</span>
-                      <p style={{ fontSize: 12, color: C.textL, marginTop: 4 }}>09 Okt 2026</p>
+                      <span style={{ fontFamily: SERIF, fontSize: '1.45em', fontStyle: 'italic', color: C.blushD, fontWeight: 600 }}>- 911</span>
+                      <p style={{ fontSize: 12, color: C.textL, marginTop: 4 }}>10 Okt 2026</p>
                     </div>
                     <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
                       {[Flower2, Heart, Flower2].map((Ic, i) => (
@@ -1177,7 +1173,6 @@ function MemoriesSection() {
                     {/* Polaroid Caption */}
                     <div className="polaroid-caption">
                       <h3 className="polaroid-title">{label}</h3>
-                      <p className="polaroid-desc">{desc}</p>
                     </div>
                   </div>
                 </div>
@@ -1424,10 +1419,76 @@ function WishesSection() {
 /* ── Gallery data with span information for masonry feel ── */
 const GALLERY_ITEMS = [
   {
-    src: 'images/memories/metrodate.jpeg',
-    label: 'Metro Date Seru',
-    desc: 'Jalan-jalan seru dan naik transportasi berdua, setiap sudut perjalanan terasa begitu indah saat bersamamu.',
+    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.21.jpeg',
+    label: 'Beautiful Moments',
+    desc: 'Setiap momen indah bersamamu selalu terasa istimewa.',
     Icon: Heart, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
+  },
+  {
+    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.21 (1).jpeg',
+    label: 'Sweet Smiles',
+    desc: 'Senyuman manismu yang selalu menghangatkan hati.',
+    Icon: Sparkles, accent: '#d4899a', tag: 'Memories', rowSpan: 1,
+  },
+  {
+    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.21 (2).jpeg',
+    label: 'Pure Joy',
+    desc: 'Tawa dan kebahagiaan yang kita bagikan bersama.',
+    Icon: Heart, accent: '#e098ae', tag: 'Memories', rowSpan: 1,
+  },
+  {
+    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.21 (3).jpeg',
+    label: 'Cherished Day',
+    desc: 'Hari-hari penuh warna dan kenangan berharga.',
+    Icon: Star, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
+  },
+  {
+    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.22.jpeg',
+    label: 'Lovely Time',
+    desc: 'Saat-saat sederhana yang berubah menjadi luar biasa bersamamu.',
+    Icon: Heart, accent: '#d4899a', tag: 'Memories', rowSpan: 1,
+  },
+  {
+    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.22 (1).jpeg',
+    label: 'Sweet Memory',
+    desc: 'Kenangan manis yang akan selalu tersimpan abadi.',
+    Icon: Sparkles, accent: '#e098ae', tag: 'Memories', rowSpan: 1,
+  },
+  {
+    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.22 (2).jpeg',
+    label: 'Happy Vibes',
+    desc: 'Selalu ada tawa dan kehangatan di setiap langkah kita.',
+    Icon: Heart, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
+  },
+  {
+    src: '/images/gallerys/WhatsApp Video 2026-10-09 at 21.40.25.mp4',
+    label: 'Video Moment',
+    desc: 'Momen video spesial penuh kebersamaan dan tawa.',
+    Icon: Play, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
+  },
+  {
+    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.26.jpeg',
+    label: 'Precious Time',
+    desc: 'Setiap detik bersamamu adalah anugerah terindah.',
+    Icon: Star, accent: '#e098ae', tag: 'Memories', rowSpan: 1,
+  },
+  {
+    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.44.13.jpeg',
+    label: 'Endless Smile',
+    desc: 'Senyum yang selalu menjadi alasan hari-hariku lebih cerah.',
+    Icon: Heart, accent: '#c9a96e', tag: 'Memories', rowSpan: 1,
+  },
+  {
+    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.44.114.jpeg',
+    label: 'Special Day',
+    desc: 'Momen spesial di hari yang begitu istimewa.',
+    Icon: Sparkles, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
+  },
+  {
+    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.44.123.jpeg',
+    label: 'Together Always',
+    desc: 'Bersama mengukir kisah manis yang tak akan pernah terlupakan.',
+    Icon: Heart, accent: '#e098ae', tag: 'Memories', rowSpan: 1,
   },
 ];
 
@@ -1648,11 +1709,6 @@ function GalleryLightbox({ images, current, onClose, onNav, onMediaPlayStateChan
           </button>
         </div>
 
-        {/* Caption & Description Footer */}
-        <div className="clean-lightbox-footer">
-          <h3 className="clean-lightbox-title">{item.label}</h3>
-          {item.desc && <p className="clean-lightbox-desc">{item.desc}</p>}
-        </div>
       </div>
     </div>
   );
@@ -1909,14 +1965,6 @@ function GallerySection({ onMediaPlayStateChange }: { onMediaPlayStateChange?: (
                     background: 'linear-gradient(0deg, rgba(15,8,4,0.6) 0%, transparent 100%)',
                   }}>
                     <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', gap: 10 }}>
-                      <div style={{ flex: 1 }}>
-                        <h3 style={{
-                          fontSize: 15, fontWeight: 700, color: '#fff',
-                          fontFamily: SERIF, fontStyle: 'italic', lineHeight: 1.3,
-                          marginBottom: 3,
-                          textShadow: '0 1px 6px rgba(0,0,0,0.5)',
-                        }}>{label}</h3>
-                      </div>
                       {/* View button */}
                       <div style={{
                         width: 34, height: 34, borderRadius: '50%', flexShrink: 0,
@@ -1929,16 +1977,6 @@ function GallerySection({ onMediaPlayStateChange }: { onMediaPlayStateChange?: (
                     </div>
                   </div>
 
-                  {/* Static bottom label (always visible) */}
-                  <div data-cup style={{
-                    position: 'absolute', bottom: 14, left: 18,
-                  }}>
-                    <h3 style={{
-                      fontSize: 14, fontWeight: 700, color: '#fff',
-                      fontFamily: SERIF, fontStyle: 'italic',
-                      textShadow: '0 1px 6px rgba(0,0,0,0.6)',
-                    }}>{label}</h3>
-                  </div>
                 </div>
               );
             })}
@@ -2297,7 +2335,7 @@ function FinalSection({
    PIN LOCK SCREEN — Secret Birthday Gate with Flower Blooming Scene
    ═══════════════════════════════════════════════════════════════════════════ */
 
-const SECRET_PIN = '00000';
+const SECRET_PIN = '2000';
 
 function PinLockScreen({ onUnlock, onBlooming }: { onUnlock: () => void; onBlooming: () => void }) {
   const [pin, setPin] = useState('');
@@ -2307,10 +2345,10 @@ function PinLockScreen({ onUnlock, onBlooming }: { onUnlock: () => void; onBloom
   const lockRef = useRef<HTMLDivElement>(null);
 
   const handleKey = (digit: string) => {
-    if (pin.length < 5 && !success) {
+    if (pin.length < SECRET_PIN.length && !success) {
       const newPin = pin + digit;
       setPin(newPin);
-      if (newPin.length === 5) {
+      if (newPin.length === SECRET_PIN.length) {
         verifyPin(newPin);
       }
     }
@@ -2455,17 +2493,17 @@ function PinLockScreen({ onUnlock, onBlooming }: { onUnlock: () => void; onBloom
         }}>
           {success
             ? 'Membuka kejutan cinta spesial untukmu...'
-            : (error ? 'PIN salah! Coba lagi ya cantikk' : 'Masukkan 5 digit PIN untuk membuka surat cintamu')}
+            : (error ? 'PIN salah! Coba lagi ya cantikk' : `Masukkan ${SECRET_PIN.length} digit PIN untuk membuka surat cintamu`)}
         </p>
 
-        {/* 5 Digit Indicators */}
+        {/* PIN Digit Indicators */}
         <div style={{
           display: 'flex',
           justifyContent: 'center',
           gap: 14,
           marginBottom: 32,
         }}>
-          {[0, 1, 2, 3, 4].map(idx => {
+          {Array.from({ length: SECRET_PIN.length }).map((_, idx) => {
             const filled = pin.length > idx;
             return (
               <div
