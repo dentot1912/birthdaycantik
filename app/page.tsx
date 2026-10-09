@@ -19,9 +19,9 @@ gsap.registerPlugin(ScrollTrigger);
    CONFIG
    ═══════════════════════════════════════════════════════════════════════════ */
 const BIRTHDAY_DATE = new Date('2026-07-03T00:00:00');
-const NAME = 'Sayang';
-const SENDER_NAME = 'David ❤️';
-const YOUTUBE_MUSIC_ID = 'gvunApwKIiY'; // https://www.youtube.com/watch?v=awWKxGftWh4
+const NAME = 'cantikk';
+const SENDER_NAME = 'Aku ❤️';
+const YOUTUBE_MUSIC_ID = 'awWKxGftWh4'; // https://www.youtube.com/watch?v=awWKxGftWh4
 
 declare global {
   interface Window {
@@ -72,7 +72,7 @@ const WISHES = [
   { Icon: Sparkles, title: 'Doa-doa Terkabul', text: 'Semoga segala doa yang kau bisikkan dalam sujud didengar dan dikabulkan dengan cara terindah.' },
   { Icon: Gem, title: 'Impian Jadi Kenyataan', text: 'Semoga satu per satu cita-cita dan impian besarmu terwujud dengan mudah dan lancar.' },
   { Icon: Flame, title: 'Kekuatan Tanpa Batas', text: 'Semoga setiap tantangan yang hadir justru menjadikanmu wanita yang semakin tangguh dan hebat.' },
-  { Icon: Heart, title: 'Cinta yang Tulus', text: 'Semoga kamu selalu merasakan betapa dalamnya rasa sayang dan cinta tulusku untukmu.' },
+  { Icon: Heart, title: 'Cinta yang Tulus', text: 'Semoga kamu selalu merasakan betapa dalamnya rasa cantikk dan cinta tulusku untukmu.' },
   { Icon: Flower2, title: 'Hati yang Lembut & Cantik', text: 'Semoga kebaikan, kelembutan, dan kemurnian hatimu yang memesona selalu terjaga.' },
   { Icon: Crown, title: 'Keberanian Melangkah', text: 'Semoga kamu selalu percaya diri dan bangga atas dirimu yang begitu berharga.' },
   { Icon: Sun, title: 'Bahagia dalam Hal Kecil', text: 'Semoga kamu selalu menemukan alasan manis untuk tersenyum bahkan dari hal-hal sederhana.' },
@@ -84,50 +84,50 @@ const WISHES = [
   { Icon: Gem, title: 'Selalu Merasa Berharga', text: 'Jangan pernah lupa bahwa kamu adalah anugerah terindah dan sangat berarti bagiku.' }
 ];
 
-const MEMORIES = [
-  {
-    Icon: Sparkles,
-    label: "Momen Pertama Ketemu",
-    desc: "Momen awal pertemuan pertama kita yang penuh kesan manis, awal mula dari segala cerita indah kita.",
-    img: "images/img1.jpeg",
-  },
-  {
-    Icon: Moon,
-    label: "First Date Sampai Gelap",
-    desc: "Kencan pertama kita yang penuh tawa dan cerita seru, ngobrol berdua tanpa terasa waktu berlalu sampai malam tiba.",
-    img: "images/img2.jpeg",
-  },
-  {
-    Icon: Flame,
-    label: "Seblak Date",
-    desc: "Momen kulineran seblak favorit berdua yang nikmat dan pedas manis, sederhana tapi selalu menghangatkan suasana.",
-    img: "images/img3.jpeg",
-  },
-  {
-    Icon: GraduationCap,
-    label: "Rayain Wisuda",
-    desc: "Momen berharga merayakan hari kelulusanmu yang membanggakan, selalu bangga dan bahagia melihat pencapaian hebatmu.",
-    img: "images/img4.jpeg",
-  },
-  {
-    Icon: Bike,
-    label: "Night Ride",
-    desc: "Menikmati perjalanan malam berdua di bawah gemerlap lampu kota dan hembusan angin malam yang syahdu.",
-    img: "images/img5.jpeg",
-  },
-  {
-    Icon: Heart,
-    label: "Second Date di Mixue",
-    desc: "Momen manis kencan kedua di Mixue, tempat paling bersejarah di mana kita resmi jadian dan memulai kisah cinta ini.",
-    img: "images/img6.jpeg",
-  },
-];
+  const MEMORIES = [
+    {
+      Icon: Sparkles,
+      label: "Photobox ceunah",
+      desc: "Momen seru berpose bareng di photobox, mengabadikan ekspresi lucu dan senyum manis kita berdua.",
+      img: "images/img1.jpeg",
+    },
+    {
+      Icon: GraduationCap,
+      label: "Wisuda profesi josjiss",
+      desc: "Momen membanggakan di hari kelulusan profesimu, ikut bahagia dan bangga melihat pencapaian hebatmu.",
+      img: "images/img2.jpeg",
+    },
+    {
+      Icon: Flame,
+      label: "Rakum with u",
+      desc: "Petualangan seru camping di Ranu Kumbolo, menikmati dinginnya udara dan hangatnya kebersamaan kita.",
+      img: "images/img3.jpeg",
+    },
+    {
+      Icon: Moon,
+      label: "XXI edition",
+      desc: "Kencan santai nonton film favorit di bioskop, ditemani popcorn dan obrolan seru berdua.",
+      img: "images/img4.jpeg",
+    },
+    {
+      Icon: Bike,
+      label: "Merbabu with u",
+      desc: "Perjalanan mendaki dan menaklukkan jalur Gunung Merbabu bersamamu, lelahnya terbayar dengan pemandangan dan momen indah.",
+      img: "images/img5.jpeg",
+    },
+    {
+      Icon: Heart,
+      label: "Yang ini inget ga kapan wkwk",
+      desc: "Momen manis yang penuh kenangan tak terlupakan, salah satu cerita indah dari perjalanan kisah kita.",
+      img: "images/img6.jpeg",
+    },
+  ];
 
 const QUOTES = [
   '"Dalam jutaan manusia di bumi, hatiku selalu dan selamanya memilihmu sebagai rumah terindah untuk pulang."',
   '"Mencintaimu adalah hal terindah dan paling membahagiakan dalam hidupku. Selamat ulang tahun, bidadari hatiku."',
   '"Setiap detik bersamamu adalah bait puisi cinta yang tak pernah ingin kuakhiri. Terima kasih telah menyempurnakan duniaku."',
-  '"Tak peduli berapa banyak waktu berganti, rasa sayang dan cintaku padamu akan selalu mekar lebih indah di setiap detiknya."',
+  '"Tak peduli berapa banyak waktu berganti, rasa cantikk dan cintaku padamu akan selalu mekar lebih indah di setiap detiknya."',
 ];
 
 const CONFETTI_COLORS = [C.blush, C.blushL, C.gold, C.goldL, C.sage, C.blushD];
@@ -179,68 +179,11 @@ function Confetti({ active }: { active: boolean }) {
    SHARED UI
    ═══════════════════════════════════════════════════════════════════════════ */
 
-function SectionLabel({ text, showFlower = true }: { text: string; showFlower?: boolean }) {
+function SectionLabel({ text }: { text: string }) {
   return (
     <div style={{ display: 'inline-flex', alignItems: 'center', gap: 10, marginBottom: 14 }}>
       <div style={{ width: 34, height: 1.5, background: C.gold }} />
       <span style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: C.gold, fontFamily: SANS }}>{text}</span>
-      {showFlower && <MiniLilyFlower size={28} />}
-    </div>
-  );
-}
-
-/* 🌸 Reusable Mini Lily Flower Badge / Accent */
-function MiniLilyFlower({ size = 38 }: { size?: number }) {
-  return (
-    <div
-      style={{
-        position: 'relative',
-        width: size,
-        height: size,
-        display: 'inline-flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        verticalAlign: 'middle',
-        animation: 'spinSlow 20s linear infinite',
-      }}
-    >
-      {/* Outer 6 Lily Petals */}
-      {[0, 60, 120, 180, 240, 300].map((deg, i) => (
-        <div
-          key={`mini-out-${i}`}
-          style={{
-            position: 'absolute',
-            width: size * 0.28,
-            height: size * 0.72,
-            borderRadius: '50% 50% 40% 40% / 70% 70% 30% 30%',
-            background: i % 2 === 0
-              ? 'linear-gradient(to top, #ec407a, #f8bbd0, #ffffff)'
-              : 'linear-gradient(to top, #f06292, #fce4ec, #ffffff)',
-            transformOrigin: 'bottom center',
-            transform: `rotate(${deg}deg) translateY(-${size * 0.1}px)`,
-            boxShadow: '0 2px 8px rgba(236,64,122,0.3)',
-            opacity: 0.95,
-          }}
-        />
-      ))}
-
-      {/* Inner 6 Lily Petals */}
-      {[30, 90, 150, 210, 270, 330].map((deg, i) => (
-        <div
-          key={`mini-in-${i}`}
-          style={{
-            position: 'absolute',
-            width: size * 0.22,
-            height: size * 0.55,
-            borderRadius: '50% 50% 40% 40% / 70% 70% 30% 30%',
-            background: 'linear-gradient(to top, #f48fb1, #fff0f5, #ffffff)',
-            transformOrigin: 'bottom center',
-            transform: `rotate(${deg}deg) translateY(-${size * 0.06}px)`,
-            boxShadow: '0 1px 6px rgba(244,143,177,0.25)',
-            opacity: 0.92,
-          }}
-        />
-      ))}
     </div>
   );
 }
@@ -506,16 +449,11 @@ function HeroSection({ onCelebrate, active = false }: { onCelebrate: () => void;
       <div style={{ position: 'absolute', top: '-15%', right: '-10%', width: '60vw', height: '60vw', borderRadius: '50%', background: `linear-gradient(135deg, ${C.blushL}40, ${C.goldL}30)`, filter: 'blur(80px)', pointerEvents: 'none' }} />
       <div style={{ position: 'absolute', bottom: '-10%', left: '-8%', width: '40vw', height: '40vw', borderRadius: '50%', background: `linear-gradient(135deg, ${C.sage}30, ${C.cream})`, filter: 'blur(60px)', pointerEvents: 'none' }} />
 
-      {/* 🌸 Floating MiniLily & WhiteRose in Hero */}
-      <div style={{ position: 'absolute', top: '8%', left: '3%', opacity: 0.22, animation: 'floatY 7s ease-in-out infinite', pointerEvents: 'none' }}><MiniLilyFlower size={42} /></div>
+      {/* 🌸 Floating WhiteRose in Hero */}
       <div style={{ position: 'absolute', top: '14%', left: '6%', opacity: 0.25, animation: 'floatY 9s ease-in-out 1s infinite', pointerEvents: 'none' }}><WhiteRose size={40} /></div>
-      <div style={{ position: 'absolute', top: '18%', right: '3%', opacity: 0.15, animation: 'floatY 10s ease-in-out 1.5s infinite', pointerEvents: 'none' }}><MiniLilyFlower size={28} /></div>
       <div style={{ position: 'absolute', top: '26%', right: '5%', opacity: 0.24, animation: 'floatY 11s ease-in-out 2s infinite', pointerEvents: 'none' }}><WhiteRose size={36} /></div>
-      <div style={{ position: 'absolute', bottom: '10%', left: '5%', opacity: 0.14, animation: 'floatY 9s ease-in-out 0.8s infinite', pointerEvents: 'none' }}><MiniLilyFlower size={32} /></div>
       <div style={{ position: 'absolute', bottom: '15%', left: '2%', opacity: 0.22, animation: 'floatY 10s ease-in-out 3s infinite', pointerEvents: 'none' }}><WhiteRose size={34} /></div>
-      <div style={{ position: 'absolute', bottom: '20%', right: '6%', opacity: 0.12, animation: 'floatY 12s ease-in-out 3s infinite', pointerEvents: 'none' }}><MiniLilyFlower size={24} /></div>
       <div style={{ position: 'absolute', bottom: '8%', right: '3%', opacity: 0.20, animation: 'floatY 13s ease-in-out 1.2s infinite', pointerEvents: 'none' }}><WhiteRose size={38} /></div>
-      <div style={{ position: 'absolute', top: '50%', left: '1%', opacity: 0.10, animation: 'floatY 14s ease-in-out 2s infinite', pointerEvents: 'none' }}><MiniLilyFlower size={18} /></div>
 
       <div className="hero-grid" style={{
         display: 'grid', gridTemplateColumns: '1fr 1fr',
@@ -525,40 +463,91 @@ function HeroSection({ onCelebrate, active = false }: { onCelebrate: () => void;
       }}>
         {/* Left — Text */}
         <div>
-          <div data-h="label">
-            <SectionLabel text="Happy Birthday" />
+          {/* Premium Tag Pill */}
+          <div data-h="label" style={{ marginBottom: 20 }}>
+            <div style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 8,
+              padding: '6px 16px',
+              borderRadius: 30,
+              boxShadow: `0 2px 12px ${C.blushL}40`,
+            }}>
+              <span style={{
+                fontSize: 11,
+                fontWeight: 700,
+                letterSpacing: '0.18em',
+                textTransform: 'uppercase',
+                color: C.blushD,
+                fontFamily: SANS,
+              }}>
+                Wishing you a joyous birthday
+              </span>
+            </div>
           </div>
 
+          {/* Main Hero Title */}
           <h1 data-h="title" style={{
-            fontSize: 'clamp(3rem, 7vw, 5.5rem)',
-            fontWeight: 600, fontFamily: SERIF, fontStyle: 'italic',
-            lineHeight: 1.05, color: C.text,
-            marginBottom: 8,
+            fontSize: 'clamp(3.2rem, 7.5vw, 5.8rem)',
+            fontWeight: 700,
+            fontFamily: SERIF,
+            fontStyle: 'italic',
+            lineHeight: 1.05,
+            color: C.text,
+            letterSpacing: '-0.02em',
+            marginBottom: 16,
           }}>
-            Selamat<br />Ulang Tahun
+            <span style={{ display: 'block', fontSize: '0.42em', fontStyle: 'normal', fontWeight: 600, fontFamily: SANS, color: C.textM, letterSpacing: '0.04em', textTransform: 'uppercase', marginBottom: 4 }}>
+              Happy Birthday,
+            </span>
+            <span style={{
+              background: `linear-gradient(135deg, ${C.text} 0%, ${C.blushD} 60%, ${C.blush} 100%)`,
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              filter: 'drop-shadow(0 2px 10px rgba(212,137,154,0.15))',
+            }}>
+              Cantikkkk!
+            </span>
           </h1>
 
-          <h2 data-h="name" style={{
-            fontSize: 'clamp(1.5rem, 3.5vw, 2.8rem)',
-            fontWeight: 600, fontFamily: SERIF,
-            color: C.blush, marginBottom: 24,
-          }}>{NAME}</h2>
-
-          <p data-h="desc" style={{
-            fontSize: 'clamp(14px, 1.8vw, 17px)',
-            lineHeight: 1.85, color: C.textM,
-            maxWidth: 420, marginBottom: 32,
-            fontFamily: SANS,
+          {/* Subtitle / Note */}
+          <div data-h="desc" style={{
+            marginBottom: 36,
+            maxWidth: 440,
+            position: 'relative',
+            paddingLeft: 16,
           }}>
-            Di hari yang paling istimewa ini,makasih udah hadir dan mewarnai hidup aku dengan tawa kamu serta cintanya kamu. semoga setiap langkah kamu selalu dipenuhi kebahagiaan sama aku
-          </p>
+            <p style={{
+              fontSize: 'clamp(15px, 2vw, 18px)',
+              lineHeight: 1.6,
+              color: C.textM,
+              fontFamily: SANS,
+              fontWeight: 500,
+              margin: 0,
+            }}>
+              Hai, this is for you
+            </p>
+            <p style={{
+              fontSize: 'clamp(18px, 2.4vw, 22px)',
+              lineHeight: 1.4,
+              color: C.blushD,
+              fontFamily: HANDWRITING,
+              fontWeight: 700,
+              marginTop: 4,
+              marginBottom: 0,
+              alignItems: 'center',
+              gap: 6,
+            }}>
+              my favourite person <Heart size={15} style={{ fill: C.blush, color: C.blush, display: 'inline' }} />
+            </p>
+          </div>
 
           <div data-h="btns" style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
             <Btn id="celebrate-btn" onClick={onCelebrate} primary>
               <PartyPopper size={16} /> Rayakan Hari Ini
             </Btn>
             <Btn onClick={() => document.getElementById('letter')?.scrollIntoView({ behavior: 'smooth' })} primary={false}>
-              <Mail size={16} /> Baca Surat Cintaku
+              <Mail size={16} /> Baca Surat
             </Btn>
           </div>
         </div>
@@ -611,56 +600,11 @@ function HeroSection({ onCelebrate, active = false }: { onCelebrate: () => void;
               width: "78%",
               height: "83%",
               borderRadius: "58% 42% 63% 37% / 38% 62% 38% 62%",
-              background: `linear-gradient(135deg, ${C.blushL}, ${C.goldL}, ${C.blush})`,
               zIndex: 1,
               opacity: 0.5,
               filter: "blur(2px)",
             }}
           />
-
-          {/* Decorative sparkle dots */}
-          <div className="hero-sparkle hero-sparkle-1" style={{
-            position: "absolute", width: 8, height: 8, borderRadius: "50%",
-            background: C.goldL, zIndex: 6, top: "12%", left: "18%",
-            animation: "pulseSparkle 3s ease-in-out infinite",
-            boxShadow: `0 0 12px ${C.goldL}`,
-          }} />
-          <div className="hero-sparkle hero-sparkle-2" style={{
-            position: "absolute", width: 6, height: 6, borderRadius: "50%",
-            background: C.blushL, zIndex: 6, bottom: "18%", left: "12%",
-            animation: "pulseSparkle 3s ease-in-out 1s infinite",
-            boxShadow: `0 0 10px ${C.blushL}`,
-          }} />
-          <div className="hero-sparkle hero-sparkle-3" style={{
-            position: "absolute", width: 10, height: 10, borderRadius: "50%",
-            background: C.goldL, zIndex: 6, bottom: "25%", right: "8%",
-            animation: "pulseSparkle 3s ease-in-out 0.5s infinite",
-            boxShadow: `0 0 14px ${C.goldL}`,
-          }} />
-          <div className="hero-sparkle hero-sparkle-4" style={{
-            position: "absolute", width: 5, height: 5, borderRadius: "50%",
-            background: C.blush, zIndex: 6, top: "30%", right: "5%",
-            animation: "pulseSparkle 2.5s ease-in-out 1.5s infinite",
-            boxShadow: `0 0 8px ${C.blush}`,
-          }} />
-
-          {/* Small floating flower accents */}
-          <div className="hero-mini-heart" style={{
-            position: "absolute", zIndex: 6,
-            bottom: "12%", left: "20%",
-            animation: "floatHeart 5s ease-in-out infinite",
-            opacity: 0.8,
-          }}>
-            <MiniLilyFlower size={18} />
-          </div>
-          <div className="hero-mini-heart" style={{
-            position: "absolute", zIndex: 6,
-            top: "20%", right: "20%",
-            animation: "floatHeart 4s ease-in-out 1.5s infinite",
-            opacity: 0.8,
-          }}>
-            <WhiteRose size={18} />
-          </div>
 
           {/* Main Image */}
           <div
@@ -696,7 +640,7 @@ function HeroSection({ onCelebrate, active = false }: { onCelebrate: () => void;
             }} />
           </div>
 
-          {/* Flower Badge */}
+          {/* Love Badge */}
           <div
             data-h="img3"
             style={{
@@ -711,12 +655,11 @@ function HeroSection({ onCelebrate, active = false }: { onCelebrate: () => void;
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              boxShadow: '0 12px 35px rgba(255,77,109,.35), 0 0 0 4px rgba(255,255,255,.5)',
               zIndex: 5,
               animation: 'float 4s ease-in-out infinite',
             }}
           >
-            <MiniLilyFlower size={54} />
+            <Heart size={44} style={{ color: '#fff', fill: '#fff', filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.15))' }} />
           </div>
         </div>
       </div>
@@ -848,12 +791,8 @@ function LetterSection() {
       position: 'relative',
     }}>
       {/* 🌸 Floating Flowers in Letter Section */}
-      <div style={{ position: 'absolute', top: '6%', right: '2%', opacity: 0.16, animation: 'floatY 9s ease-in-out 1s infinite', pointerEvents: 'none' }}><MiniLilyFlower size={38} /></div>
       <div style={{ position: 'absolute', top: '14%', right: '4%', opacity: 0.22, animation: 'floatY 11s ease-in-out 2.5s infinite', pointerEvents: 'none' }}><WhiteRose size={36} /></div>
-      <div style={{ position: 'absolute', bottom: '8%', left: '2%', opacity: 0.13, animation: 'floatY 11s ease-in-out 2s infinite', pointerEvents: 'none' }}><MiniLilyFlower size={30} /></div>
       <div style={{ position: 'absolute', bottom: '14%', left: '4%', opacity: 0.20, animation: 'floatY 10s ease-in-out 1.5s infinite', pointerEvents: 'none' }}><WhiteRose size={34} /></div>
-      <div style={{ position: 'absolute', top: '40%', left: '0.5%', opacity: 0.10, animation: 'floatY 13s ease-in-out 0.5s infinite', pointerEvents: 'none' }}><MiniLilyFlower size={20} /></div>
-      <div style={{ position: 'absolute', top: '25%', right: '1%', opacity: 0.09, animation: 'floatY 15s ease-in-out 4s infinite', pointerEvents: 'none' }}><MiniLilyFlower size={16} /></div>
       <div className="split-section" style={{
         display: 'grid', gridTemplateColumns: '1fr 1fr',
         gap: 'clamp(40px, 6vw, 88px)',
@@ -871,17 +810,17 @@ function LetterSection() {
             <img src='images/surat.jpeg' alt="Love letter" className="img-cover" />
           </div>
           <div className="polaroid-caption" style={{ marginTop: 12 }}>
-            <h3 className="polaroid-title" style={{ fontSize: 15, marginBottom: 2 }}>Untaian Cinta & Doa</h3>
-            <p className="polaroid-desc" style={{ fontSize: 12 }}>Sebuah pesan cinta yang tertulis khusus untukmu</p>
+            <h3 className="polaroid-title" style={{ fontSize: 15, marginBottom: 2 }}>Cuma kata tapi dari hati</h3>
+            <p className="polaroid-desc" style={{ fontSize: 12 }}>Bacanya sambil rebahan enak nih wkwkwk ...</p>
           </div>
         </div>
 
         {/* ── Text side ── */}
         <div data-lt="text">
           <SectionLabel text="Dari Hati Terdalam" />
-          <SectionTitle>Sepucuk Surat<br />Cinta</SectionTitle>
+          <SectionTitle>Cuma kata tapi<br />dari hati</SectionTitle>
           <p style={{ marginTop: 16, fontSize: 15, lineHeight: 1.8, color: C.textM, marginBottom: 28, fontFamily: SANS }}>
-            Kutuliskan pesan ini dengan seluruh rasa sayang, kehangatan, dan cinta yang tak pernah pudar untukmu...
+            Bacanya sambil rebahan enak nih wkwkwk ...
           </p>
 
           {/*
@@ -931,7 +870,7 @@ function LetterSection() {
                   transform: 'rotate(4deg)',
                   boxShadow: '0 2px 6px rgba(45,31,20,0.08)',
                 }}>
-                  <MiniLilyFlower size={24} />
+                  <WhiteRose size={24} />
                 </div>
 
                 {/* Address lines (decorative) */}
@@ -1001,7 +940,7 @@ function LetterSection() {
                     visibility: 'hidden', fontSize: 'clamp(18px, 3vw, 23px)', fontFamily: SERIF,
                     fontStyle: 'italic', fontWeight: 600, color: C.text, marginBottom: 6,
                     lineHeight: 1.3,
-                  }}>Teruntuk Sayang Tercinta 🌸</h3>
+                  }}>Teruntuk cantikk Tercinta 🌸</h3>
 
                   <p style={{ visibility: 'hidden', fontSize: 13, color: C.textL, fontFamily: SANS, marginBottom: 20, lineHeight: 1.6 }}>
                     Sebuah pesan cinta yang ditulis dengan seluruh hati...
@@ -1055,71 +994,46 @@ function LetterSection() {
                 <div data-letter-line style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20 }}>
                   <Flower2 size={18} style={{ color: C.blush }} />
                   <p style={{ fontSize: 16, fontWeight: 600, fontFamily: SERIF, fontStyle: 'italic', color: C.blushD }}>
-                    Untuk Nurmaysah :
+                    Untuk Kamu :
                   </p>
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 14, fontSize: 15, lineHeight: 1.95, color: C.textM, fontFamily: SANS }}>
                   <p data-letter-line>
-                    Selamat ulang tahun ya, sayang. 🤍
+                    Halloo cantikkk!<br />
+                    Welcome back!
                   </p>
 
                   <p data-letter-line style={{ color: C.text }}>
-                    Aku mungkin nggak pinter nyampein perasaan lewat kata-kata, tapi di hari ulang tahun kamu ini aku mau bilang sesuatu yang mungkin jarang aku sampaikan.
+                    Untuk yang abis naik merbabuu nihhh<br />
+                    Selamat sudah sampai bawah lagi dengan selamat, mas kangen hehe!
                   </p>
 
                   <p data-letter-line>
-                    Selamat ulang tahun untuk orang paling spesial dalam hidupku dan pemilik hati yang paling tulus.{" "}
-                    <Flower2
-                      size={14}
-                      style={{
-                        color: C.blush,
-                        display: "inline",
-                        verticalAlign: "middle",
-                      }}
-                    />
+                    Mas awali pake bismillah ya wkwkkw<br />
+                    Mas harap hari ini dan seterusnya memberimu banyak kebahagiaan dan kesenangan.
                   </p>
 
                   <p data-letter-line style={{ color: C.text }}>
-                    Selamat bertambah usia, selamat merayakan lembaran baru yang penuh dengan jutaan doa, cinta, dan impian indah yang menjadi kenyataan. Nikmati setiap momen di babak baru hidupmu ini dengan penuh tawa, kebahagiaan, dan rasa syukur. Semoga Allah senantiasa melindungi dan membimbing setiap langkahmu, sayang. Aku berharap setiap hari yang kau lalui selalu dipenuhi kehangatan, senyuman.
+                    Mmmmm.. makasiiii banyak banyak sudah hadir dan menemani perjalanan takdir ini.
                   </p>
 
                   <p data-letter-line>
-                    Makasih ya, selama ini udah ngasih aku cinta, perhatian, dan ketulusan. Thank you juga sudah mau menerima aku dengan segala kurang dan lebihnya. Aku sadar, selama kita bareng mungkin aku sering bikin kamu kecewa, sedih, atau mungkin bikin km merasa nggk dihargai. Buat semua itu, aku benar-benar minta maaf.
+                    Aku yakin kita bisa melewati semuanya bareng-bareng dan mendapati hal yang luar biasa baiknya di depan nanti 🥹
                   </p>
 
                   <p data-letter-line style={{ color: C.text }}>
-                    Aku tahu cuma bilang maaf nggak akan langsung menghapus semua rasa kecewa kamu. Tapi aku mau kamu tahu, aku nggak pernah bermaksud bikin kamu terluka.
+                    Sekali lagi selamat ulang tahun cantikkku 🥰🤍<br />
+                    Semoga Allah memberimu panjang umur, sehat selalu, dijauhkan dari segala penyakit dan marabahaya, dimudahkan jalanmu, dilancarkan segala urusanmu, dikabulkan segala do&apos;a mu.<br />
+                    Aamiin Allahumma Aamiin.
                   </p>
 
                   <p data-letter-line>
-                    Aku sayang sama kamu. Mungkin aku nggak selalu bisa nunjukin dengan cara yang kamu harapkan, tapi rasa sayang itu benaran ada. Dan semakin aku mengenal kamu, semakin aku sadar kalau kehadiran kamu berarti buat aku. 💖 ✨
+                    Semoga perasaan kamu ke aku gapernah berubah ya, tetap sabar sama aku, tetap kuat di tengah masalah apapun yang akan datang kedepannya.
                   </p>
 
-                  <p data-letter-line style={{ color: C.text }}>
-                    Aku nggak bisa janji akan selalu sempurna, karena aku juga masih banyak belajar. Tapi aku ingin terus belajar menjadi seseorang yang bisa membuat kamu merasa disayang, dihargai, dan merasa aman disaat bareng aku. 🥹 🫶🏻
-                  </p>
-
-                  <p data-letter-line>
-                    Di umur kamu yang baru ini, aku cuma berharap kamu selalu sehat, bahagia, dan apa pun yang sedang kamu perjuangin bisa berjalan dengan baik. Semoga kamu selalu dikelilingi hal² baik dan orang² yang tulus menyayangi kamu. ✨
-                  </p>
-
-                  <p data-letter-line style={{ color: C.text }}>
-                    Dan kalau boleh aku berharap, semoga aku masih bisa menjadi orang yang menemani kamu melewati banyak hal ke depannya.
-                  </p>
-
-                  <p data-letter-line>
-                    Sekali lagi, selamat ulang tahun, sayang. 🥳
-                  </p>
-
-                  <p data-letter-line style={{ color: C.text }}>
-                    Terima kasih sudah hadir di hidup aku.<br />
-                    Terima kasih sudah menyayangi aku.<br />
-                    Dan maaf untuk semua hal yang pernah membuat kamu kecewa.
-                  </p>
-
-                  <p data-letter-line style={{ fontWeight: 600, color: C.blushD }}>
-                    Aku sayang kamu ❤️
+                  <p data-letter-line style={{ fontWeight: 600, color: C.blushD, fontStyle: 'italic' }}>
+                    I will be the man who gives u the love deserve. The man who makes u feel the luckiest girl ✨
                   </p>
 
                   {/* Signature */}
@@ -1129,8 +1043,8 @@ function LetterSection() {
                     display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end',
                   }}>
                     <div>
-                      <span style={{ fontFamily: SERIF, fontSize: '1.45em', fontStyle: 'italic', color: C.blushD, fontWeight: 600 }}>- David</span>
-                      <p style={{ fontSize: 12, color: C.textL, marginTop: 4 }}>28 Sept 2026</p>
+                      <span style={{ fontFamily: SERIF, fontSize: '1.45em', fontStyle: 'italic', color: C.blushD, fontWeight: 600 }}>- Aku</span>
+                      <p style={{ fontSize: 12, color: C.textL, marginTop: 4 }}>09 Okt 2026</p>
                     </div>
                     <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
                       {[Flower2, Heart, Flower2].map((Ic, i) => (
@@ -1215,11 +1129,9 @@ function MemoriesSection() {
         {/* Header */}
         <div data-m="header" style={{ textAlign: 'center', marginBottom: 72 }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 12, marginBottom: 16 }}>
-            <MiniLilyFlower size={28} />
             <div style={{ width: 34, height: 1.5, background: C.gold }} />
             <span style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: C.gold, fontFamily: SANS }}>Jejak Cerita Cinta</span>
             <div style={{ width: 34, height: 1.5, background: C.gold }} />
-            <MiniLilyFlower size={28} />
           </div>
           <SectionTitle center>Kisah Manis Kita</SectionTitle>
           <p style={{ marginTop: 14, fontSize: 15, color: C.textM, fontFamily: SANS, maxWidth: 460, margin: '14px auto 0', lineHeight: 1.6 }}>
@@ -1408,28 +1320,22 @@ function WishesSection() {
       <Sparkles size={18} style={{ position: 'absolute', bottom: '15%', left: '12%', color: C.blushL, opacity: 0.16, animation: 'floatY 7s ease-in-out 0.5s infinite' }} />
       <Gem size={14} style={{ position: 'absolute', bottom: '20%', right: '15%', color: C.goldL, opacity: 0.12, animation: 'floatY 9s ease-in-out 1.5s infinite' }} />
       {/* 🌸 Floating Flowers in Wishes Section */}
-      <div style={{ position: 'absolute', top: '5%', left: '1%', opacity: 0.18, animation: 'floatY 8s ease-in-out 0.5s infinite', pointerEvents: 'none' }}><MiniLilyFlower size={36} /></div>
       <div style={{ position: 'absolute', top: '12%', left: '3%', opacity: 0.22, animation: 'floatY 10s ease-in-out 2s infinite', pointerEvents: 'none' }}><WhiteRose size={34} /></div>
-      <div style={{ position: 'absolute', top: '10%', right: '2%', opacity: 0.14, animation: 'floatY 10s ease-in-out 2s infinite', pointerEvents: 'none' }}><MiniLilyFlower size={26} /></div>
       <div style={{ position: 'absolute', top: '18%', right: '4%', opacity: 0.20, animation: 'floatY 12s ease-in-out 3s infinite', pointerEvents: 'none' }}><WhiteRose size={38} /></div>
-      <div style={{ position: 'absolute', bottom: '5%', right: '1%', opacity: 0.12, animation: 'floatY 12s ease-in-out 1s infinite', pointerEvents: 'none' }}><MiniLilyFlower size={30} /></div>
       <div style={{ position: 'absolute', bottom: '12%', right: '3%', opacity: 0.22, animation: 'floatY 9s ease-in-out 2.5s infinite', pointerEvents: 'none' }}><WhiteRose size={36} /></div>
-      <div style={{ position: 'absolute', bottom: '10%', left: '1%', opacity: 0.10, animation: 'floatY 11s ease-in-out 3s infinite', pointerEvents: 'none' }}><MiniLilyFlower size={20} /></div>
       <div style={{ position: 'absolute', bottom: '16%', left: '3%', opacity: 0.18, animation: 'floatY 13s ease-in-out 1s infinite', pointerEvents: 'none' }}><WhiteRose size={30} /></div>
 
       <div style={{ maxWidth: 1160, margin: '0 auto', position: 'relative', zIndex: 5 }}>
         {/* Header */}
         <div data-w="header" style={{ textAlign: 'center', marginBottom: 48 }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 12, marginBottom: 16 }}>
-            <MiniLilyFlower size={28} />
             <div style={{ width: 34, height: 1.5, background: C.gold }} />
             <span style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: C.gold, fontFamily: SANS }}>Harapan & Doa</span>
             <div style={{ width: 34, height: 1.5, background: C.gold }} />
-            <MiniLilyFlower size={28} />
           </div>
           <SectionTitle center>Doa & Harapan Cinta</SectionTitle>
           <p style={{ marginTop: 14, fontSize: 15, color: C.textM, fontFamily: SANS, maxWidth: 520, margin: '14px auto 0', lineHeight: 1.6 }}>
-            Ini untaian doa dan harapan tulusku untukmu, sayang:
+            Ini untaian doa dan harapan tulusku untukmu, cantikk:
           </p>
         </div>
 
@@ -1522,156 +1428,6 @@ const GALLERY_ITEMS = [
     label: 'Metro Date Seru',
     desc: 'Jalan-jalan seru dan naik transportasi berdua, setiap sudut perjalanan terasa begitu indah saat bersamamu.',
     Icon: Heart, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Image 2026-09-22 at 137.12.56.jpeg',
-    label: 'Wisudaan atau Pre-Wedding? 🤣',
-    desc: 'Ini foto wisudaan atau pre wedding ya 🤣 Saking cocok dan serasinya kita berdua.',
-    Icon: Smile, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Image 2026-09-22 at 17.112.54.jpeg',
-    label: 'First Time Photobox Date',
-    desc: 'Pengalaman pertama kali kencan dan foto di photobox berdua, hasilnya lucu dan gemas banget.',
-    Icon: Camera, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Image 2026-09-22 at 17.112.55.jpeg',
-    label: 'First Time Photobox Date',
-    desc: 'Pengalaman pertama kali kencan dan foto di photobox berdua, hasilnya lucu dan gemas banget.',
-    Icon: Sparkles, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Image 2026-09-22 at 17.12.524.jpeg',
-    label: 'First Time Photobox Date',
-    desc: 'Pengalaman pertama kali kencan dan foto di photobox berdua, hasilnya lucu dan gemas banget.',
-    Icon: Flower2, accent: '#b8c7b0', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Image 2026-09-22 at 17.12.53.jpeg',
-    label: 'First Time Photobox Date',
-    desc: 'Pengalaman pertama kali kencan dan foto di photobox berdua, hasilnya lucu dan gemas banget.',
-    Icon: Star, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Image 2026-09-22 at 17.12.57.jpeg',
-    label: 'Sweet Warm Hug',
-    desc: 'The moment you hug me with all your sweet love, rasanya begitu hangat dan menenangkan hati.',
-    Icon: Camera, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Image 2026-09-22 at 17.12.58.jpeg',
-    label: 'Sweet Warm Hug',
-    desc: 'The moment you hug me with all your sweet love, rasanya begitu hangat dan menenangkan hati.',
-    Icon: Heart, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Image 2026-09-22 at 17.122.58.jpeg',
-    label: 'Sweet Warm Hug',
-    desc: 'The moment you hug me with all your sweet love, rasanya begitu hangat dan menenangkan hati.',
-    Icon: Heart, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Image 2026-09-22 at 17.132.57.jpeg',
-    label: 'Sweet Warm Hug',
-    desc: 'The moment you hug me with all your sweet love, rasanya begitu hangat dan menenangkan hati.',
-    Icon: Smile, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Image 2026a-09-22 at 17.12.59.jpeg',
-    label: 'After Kejadian Itu',
-    desc: 'Momen setelah kejadian hal yang nggak akan pernah aku ulangin dan lupain seumur hidup.',
-    Icon: Heart, accent: '#a84f65', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Image 21026-09-22 at 17.12.55.jpeg',
-    label: 'City Light With Youuu',
-    desc: 'Menikmati gemerlap city light malam hari bersamamu, pemandangan indah yang kalah cantik dari senyumanmu.',
-    Icon: Moon, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Video 2026-09-22 a2t 17.13.00.mp4',
-    label: 'Cafe Datee',
-    desc: 'Momen manis nongkrong dan ngobrol santai berdua di cafe favorit, selalu hangat dan penuh tawa.',
-    Icon: Play, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Video 2026-09-22 at 17.12.53.mp4',
-    label: 'Nyanset Bareng',
-    desc: 'Momen syahdu menikmati matahari terbenam berdua, langit senja yang indah jadi saksi kebersamaan kita.',
-    Icon: Play, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Video 2026-09-22 at 17.12.56.mp4',
-    label: 'Main Dari Pagi Buta',
-    desc: 'Kalo mau main mesti dari pagi-pagi buta supaya puas karena jarang ketemu 😭❤️',
-    Icon: Play, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/memories/WhatsApp Video 2026-09-22 at 18.01.16.mp4',
-    label: 'Kompilasi Momen Manis Berdua',
-    desc: 'Kumpulan cuplikan kenangan indah kita: dari cermin lucu, belanja boneka, baca buku, makan bareng hingga saling genggam tangan erat.',
-    Icon: Play, accent: '#b8c7b0', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/newmemories/WhatsApp Image 2026-09-22 at 18.32.18.jpeg',
-    label: 'Special Moment',
-    desc: 'Momen berharga dan manis yang selalu membekas di dalam ingatan bersamamu.',
-    Icon: Sparkles, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/newmemories/WhatsApp Video 2026-09-22 at 18.25.55.mp4',
-    label: 'Sweet Video Memory',
-    desc: 'Keseruan dan canda tawa kita berdua yang terekam indah.',
-    Icon: Play, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/newmemories/WhatsApp Video 2026-09-22 at 18.32.20.mp4',
-    label: 'Lovely Moments',
-    desc: 'Detik-detik kebersamaan penuh kehangatan dan kebahagiaan.',
-    Icon: Play, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/newmemories/beachdate.mp4',
-    label: 'Beach Date',
-    desc: 'Menikmati hembusan angin pantai dan deburan ombak berdua bersamamu.',
-    Icon: Play, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/newmemories/firstdateinbalam.mp4',
-    label: 'First Date in Balam',
-    desc: 'Kencan pertama di Balam yang penuh cerita manis dan momen tak terlupakan.',
-    Icon: Play, accent: '#b8c7b0', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/newmemories/firsttimephotobox.mp4',
-    label: 'First Time Photobox',
-    desc: 'Momen pertama kali berfoto ria di photobox, penuh tawa dan ekspresi lucu.',
-    Icon: Play, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/newmemories/lunchdate.jpeg',
-    label: 'Lunch Date',
-    desc: 'Makan siang berdua yang selalu terasa lebih lezat dan spesial di sampingmu.',
-    Icon: Heart, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/newmemories/mainkebukit kebo.jpeg',
-    label: 'Main ke Bukit Kebo',
-    desc: 'Petualangan seru dan pemandangan asri saat main ke Bukit Kebo bareng kamu.',
-    Icon: Camera, accent: '#b8c7b0', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/newmemories/myhappyface whenyouwere around.jpeg',
-    label: 'My Happy Face When You Were Around',
-    desc: 'Wajah paling bahagia yang selalu terpancar saat berada di dekatmu.',
-    Icon: Smile, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
-  },
-  {
-    src: 'images/newmemories/nature.jpeg',
-    label: 'Nature Date',
-    desc: 'Menikmati sejuk dan indahnya alam bersama orang yang paling dicintai.',
-    Icon: Flower2, accent: '#b8c7b0', tag: 'Memories', rowSpan: 2,
   },
 ];
 
@@ -2001,7 +1757,6 @@ function GallerySection({ onMediaPlayStateChange }: { onMediaPlayStateChange?: (
 
             {/* Pill label */}
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 14, marginBottom: 20 }}>
-              <MiniLilyFlower size={30} />
               <div style={{ height: 1, width: 46, background: `linear-gradient(to right, transparent, ${C.gold}80)` }} />
               <div style={{
                 display: 'inline-flex', alignItems: 'center', gap: 8,
@@ -2014,7 +1769,6 @@ function GallerySection({ onMediaPlayStateChange }: { onMediaPlayStateChange?: (
                 <span style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.24em', textTransform: 'uppercase', color: C.blushD, fontFamily: SANS }}>Galeri Foto</span>
               </div>
               <div style={{ height: 1, width: 46, background: `linear-gradient(to left, transparent, ${C.gold}80)` }} />
-              <MiniLilyFlower size={30} />
             </div>
 
             {/* Main title */}
@@ -2481,14 +2235,11 @@ function FinalSection({
       padding: '0', minHeight: '80vh',
       overflow: 'hidden',
     }}>
-      {/* Background video */}
+      {/* Background image */}
       <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-        <video
-          src="images/footer.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
+        <img
+          src="images/footer.jpeg"
+          alt="Footer background"
           style={{
             width: '100%',
             height: '100%',
@@ -2546,7 +2297,7 @@ function FinalSection({
    PIN LOCK SCREEN — Secret Birthday Gate with Flower Blooming Scene
    ═══════════════════════════════════════════════════════════════════════════ */
 
-const SECRET_PIN = '28926';
+const SECRET_PIN = '00000';
 
 function PinLockScreen({ onUnlock, onBlooming }: { onUnlock: () => void; onBlooming: () => void }) {
   const [pin, setPin] = useState('');
@@ -2704,7 +2455,7 @@ function PinLockScreen({ onUnlock, onBlooming }: { onUnlock: () => void; onBloom
         }}>
           {success
             ? 'Membuka kejutan cinta spesial untukmu...'
-            : (error ? 'PIN salah! Coba lagi ya sayang' : 'Masukkan 5 digit PIN untuk membuka surat cintamu')}
+            : (error ? 'PIN salah! Coba lagi ya cantikk' : 'Masukkan 5 digit PIN untuk membuka surat cintamu')}
         </p>
 
         {/* 5 Digit Indicators */}
@@ -2939,7 +2690,7 @@ function LilyBloomOverlay() {
         }}
       />
 
-      {/* Central Mother Lily Flower */}
+      {/* Central Mother Rose Flower */}
       <div
         style={{
           position: 'absolute',
@@ -2953,11 +2704,11 @@ function LilyBloomOverlay() {
         }}
       >
         <div style={{ width: '100%', height: '100%' }}>
-          <MiniLilyFlower size={140} />
+          <WhiteRose size={140} />
         </div>
       </div>
 
-      {/* 24 optimized Lily flowers */}
+      {/* 24 optimized White Rose flowers */}
       {blossoms.map((b) => (
         <div
           key={b.id}
@@ -2977,7 +2728,7 @@ function LilyBloomOverlay() {
           } as React.CSSProperties}
         >
           <div style={{ width: '100%', height: '100%', transform: `rotate(${b.rot}deg)` }}>
-            <MiniLilyFlower size={b.size} />
+            <WhiteRose size={b.size} />
           </div>
         </div>
       ))}
@@ -3276,70 +3027,37 @@ export default function BirthdayPage() {
         }} />
       </div>
 
-      {/* 🌸 Global Floating Flowers Layer (Lily & White Rose) */}
+      {/* 🌸 Global Floating Flowers Layer (White Rose) */}
       {unlocked && (
         <div style={{ position: 'fixed', inset: 0, pointerEvents: 'none', zIndex: 1, overflow: 'hidden' }}>
           {/* Top-left cluster */}
-          <div style={{ position: 'absolute', top: '6%', left: '2%', opacity: 0.18, animation: 'floatY 8s ease-in-out infinite' }}>
-            <MiniLilyFlower size={36} />
-          </div>
           <div style={{ position: 'absolute', top: '12%', left: '5%', opacity: 0.22, animation: 'floatY 10s ease-in-out 1.5s infinite' }}>
             <WhiteRose size={34} />
           </div>
-          <div style={{ position: 'absolute', top: '18%', left: '8%', opacity: 0.12, animation: 'floatY 11s ease-in-out 2s infinite' }}>
-            <MiniLilyFlower size={22} />
-          </div>
 
           {/* Top-right cluster */}
-          <div style={{ position: 'absolute', top: '8%', right: '3%', opacity: 0.15, animation: 'floatY 9s ease-in-out 1s infinite' }}>
-            <MiniLilyFlower size={30} />
-          </div>
           <div style={{ position: 'absolute', top: '15%', right: '6%', opacity: 0.20, animation: 'floatY 11s ease-in-out 2.5s infinite' }}>
             <WhiteRose size={38} />
           </div>
-          <div style={{ position: 'absolute', top: '22%', right: '9%', opacity: 0.10, animation: 'floatY 13s ease-in-out 3s infinite' }}>
-            <MiniLilyFlower size={18} />
-          </div>
 
           {/* Mid-left */}
-          <div style={{ position: 'absolute', top: '38%', left: '1.5%', opacity: 0.13, animation: 'floatY 10s ease-in-out 0.5s infinite' }}>
-            <MiniLilyFlower size={26} />
-          </div>
           <div style={{ position: 'absolute', top: '48%', left: '3%', opacity: 0.18, animation: 'floatY 12s ease-in-out 3.5s infinite' }}>
             <WhiteRose size={32} />
           </div>
 
           {/* Mid-right */}
-          <div style={{ position: 'absolute', top: '42%', right: '2%', opacity: 0.11, animation: 'floatY 12s ease-in-out 4s infinite' }}>
-            <MiniLilyFlower size={32} />
-          </div>
           <div style={{ position: 'absolute', top: '50%', right: '4%', opacity: 0.20, animation: 'floatY 9s ease-in-out 1.2s infinite' }}>
             <WhiteRose size={36} />
           </div>
-          <div style={{ position: 'absolute', top: '58%', right: '6%', opacity: 0.09, animation: 'floatY 9s ease-in-out 1.5s infinite' }}>
-            <MiniLilyFlower size={20} />
-          </div>
 
           {/* Bottom-left */}
-          <div style={{ position: 'absolute', bottom: '18%', left: '3%', opacity: 0.14, animation: 'floatY 11s ease-in-out 2.5s infinite' }}>
-            <MiniLilyFlower size={28} />
-          </div>
           <div style={{ position: 'absolute', bottom: '12%', left: '5%', opacity: 0.22, animation: 'floatY 10s ease-in-out 2s infinite' }}>
             <WhiteRose size={40} />
-          </div>
-          <div style={{ position: 'absolute', bottom: '6%', left: '8%', opacity: 0.10, animation: 'floatY 14s ease-in-out 0s infinite' }}>
-            <MiniLilyFlower size={16} />
           </div>
 
           {/* Bottom-right */}
           <div style={{ position: 'absolute', bottom: '16%', right: '3%', opacity: 0.20, animation: 'floatY 12s ease-in-out 1s infinite' }}>
             <WhiteRose size={36} />
-          </div>
-          <div style={{ position: 'absolute', bottom: '10%', right: '6%', opacity: 0.13, animation: 'floatY 10s ease-in-out 3.5s infinite' }}>
-            <MiniLilyFlower size={34} />
-          </div>
-          <div style={{ position: 'absolute', bottom: '4%', right: '9%', opacity: 0.09, animation: 'floatY 8s ease-in-out 1s infinite' }}>
-            <MiniLilyFlower size={20} />
           </div>
 
           {/* Subtle edge accents */}
